@@ -6,6 +6,8 @@ Este é um script de instalação do Gitlab-Runner em um servidor.
 
 No servidor, é necessário ter os pacotes:
 - `docker`
+- `git`
+- `tar`
 
 ## Uso
 
