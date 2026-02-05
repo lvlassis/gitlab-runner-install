@@ -17,7 +17,6 @@ Para instalar o Gitlab-Runner:
 2. Obtenha o Token do seu Runner.
 3. No servidor, execute o script de instalação:
 ```shell
-git archive --remote=https://github.com/lvlassis/gitlab-runner-install.git HEAD runner_install.sh | tar -xO > runner_install.sh && chmod +x runner_install.sh && ./runner_install.sh
-
+curl https://raw.githubusercontent.com/lvlassis/gitlab-runner-install/refs/heads/main/runner_install.sh -o runner_install.sh && chmod +x runner_install.sh.1 && ./runner_install.sh
 ```
 4. Forneça o Token ao script.
